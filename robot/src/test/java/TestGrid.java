@@ -18,4 +18,9 @@ public class TestGrid {
         assertEquals(6, grid.getSquares().length);
     }
 
+    @Test
+    public void gridYSetUp() {
+        assertEquals(4, grid.getSquares()[4].length);
+    }
+
 }
