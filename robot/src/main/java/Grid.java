@@ -19,4 +19,8 @@ public class Grid {
         return (this.squares[x][y] == 'x');
     }
 
+    public void setSquare(int x, int y, char c) {
+        this.squares[x][y] = c;
+    }
+
 }

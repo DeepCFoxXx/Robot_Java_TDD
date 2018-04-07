@@ -3,6 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class TestGrid {
 
@@ -27,6 +28,12 @@ public class TestGrid {
     @Test
     public void warningScentStartsFalse() {
         assertFalse(grid.hasWarningScent(1,1));
+    }
+
+    @Test
+    public void warningCanSetSquare() {
+        grid.setSquare(1,1, 'x');
+        assertTrue(grid.hasWarningScent(1,1));
     }
 
 }
