@@ -15,4 +15,8 @@ public class Grid {
         return this.squares;
     }
 
+    public boolean hasWarningScent(int x, int y) {
+        return (this.squares[x][y] == 'x');
+    }
+
 }

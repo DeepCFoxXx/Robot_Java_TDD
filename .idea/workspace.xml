@@ -592,7 +592,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestGrid.gridYSetUp">
+  <component name="RunManager" selected="JUnit.TestGrid.warningScentStartsFalse">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -623,6 +623,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestGrid" />
       <option name="METHOD_NAME" value="gridYSetUp" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestGrid.warningScentStartsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="robot_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGrid" />
+      <option name="METHOD_NAME" value="warningScentStartsFalse" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -687,9 +704,11 @@
     <list>
       <item itemvalue="JUnit.TestGrid.gridXSetUp" />
       <item itemvalue="JUnit.TestGrid.gridYSetUp" />
+      <item itemvalue="JUnit.TestGrid.warningScentStartsFalse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestGrid.warningScentStartsFalse" />
         <item itemvalue="JUnit.TestGrid.gridYSetUp" />
         <item itemvalue="JUnit.TestGrid.gridXSetUp" />
       </list>
@@ -707,6 +726,14 @@
       <updated>1523117568585</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestGrid_gridXSetUp - 2018.04.07 at 17h 20m 24s.xml">
+      <configuration name="TestGrid.gridXSetUp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestGrid_gridYSetUp - 2018.04.07 at 17h 24m 19s.xml">
+      <configuration name="TestGrid.gridYSetUp" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
