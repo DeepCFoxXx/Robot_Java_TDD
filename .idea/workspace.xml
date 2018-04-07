@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16af8948-5696-488f-aca2-01799aed3937" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/robot/src/main/java/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/robot/src/main/java/Grid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot/src/test/java/TestGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/robot/src/test/java/TestGrid.java" afterDir="false" />
-    </list>
+    <list default="true" id="16af8948-5696-488f-aca2-01799aed3937" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -29,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/robot/src/main/java/Grid.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="e#250#251#0" expanded="true" />
                 <element signature="e#285#286#0" expanded="true" />
@@ -45,8 +42,8 @@
       <file leaf-file-name="TestGrid.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestGrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="22" />
+            <state relative-caret-position="339">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#86#87#0" expanded="true" />
@@ -763,6 +760,9 @@
     <history-entry file="TestGrid_warningScentStartsFalse - 2018.04.07 at 17h 27m 09s.xml">
       <configuration name="TestGrid.warningScentStartsFalse" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestGrid_warningCanSetSquare - 2018.04.07 at 17h 30m 44s.xml">
+      <configuration name="TestGrid.warningCanSetSquare" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -822,7 +822,7 @@
     <entry file="file://$PROJECT_DIR$/robot/src/main/java/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="e#250#251#0" expanded="true" />
             <element signature="e#285#286#0" expanded="true" />
@@ -836,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestGrid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="22" />
+        <state relative-caret-position="339">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#86#87#0" expanded="true" />
