@@ -43,4 +43,11 @@ public class TestRobot {
         assertEquals("2 1 E", robot1.getPosition());
     }
 
+    @Test
+    public void turnAndMoveRightEastToSouth() {
+        robot1.changeOrientation('R');
+        robot1.changeCoords('F');
+        assertEquals("1 0 S", robot1.getPosition());
+    }
+
 }
