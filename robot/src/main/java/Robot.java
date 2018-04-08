@@ -37,4 +37,17 @@ public class Robot {
         this.moves.put('W', west);
     }
 
+    public String getPosition() {
+        if (this.lost) {
+            this.reinstatePreviousCoords();
+        }
+        String pos = xPosition + " " + yPosition + " " + orientation;
+        return this.lost ? pos + " LOST" : pos;
+    }
+
+    public void reinstatePreviousCoords() {
+        this.xPosition = this.prevXposition;
+        this.yPosition = this.prevYPosition;
+    }
+
 }
