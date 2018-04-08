@@ -25,4 +25,10 @@ public class TestRobot {
         assertEquals("1 1 E", robot1.getPosition());
     }
 
+    @Test
+    public void changeOrientationLeftBecomesNorth() {
+        robot1.changeOrientation('L');
+        assertEquals("1 1 N", robot1.getPosition());
+    }
+
 }

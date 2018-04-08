@@ -50,4 +50,46 @@ public class Robot {
         this.yPosition = this.prevYPosition;
     }
 
+    public void changeOrientation(char direction) {
+        if (direction == 'L') {
+            this.turnLeft();
+        } else if (direction == 'R') {
+            this.turnRight();
+        }
+    }
+
+    public void turnLeft() {
+        switch (this.orientation) {
+            case 'N':
+                this.orientation = 'W';
+                break;
+            case 'E':
+                this.orientation = 'N';
+                break;
+            case 'S':
+                this.orientation = 'E';
+                break;
+            case 'W':
+                this.orientation = 'S';
+                break;
+        }
+    }
+
+    public void turnRight() {
+        switch (this.orientation) {
+            case 'N':
+                this.orientation = 'E';
+                break;
+            case 'E':
+                this.orientation = 'S';
+                break;
+            case 'S':
+                this.orientation = 'W';
+                break;
+            case 'W':
+                this.orientation = 'N';
+                break;
+        }
+    }
+
 }
