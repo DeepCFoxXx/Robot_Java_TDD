@@ -37,4 +37,10 @@ public class TestRobot {
         assertEquals("1 1 S", robot1.getPosition());
     }
 
+    @Test
+    public void moveForwardsEast() {
+        robot1.changeCoords('F');
+        assertEquals("2 1 E", robot1.getPosition());
+    }
+
 }

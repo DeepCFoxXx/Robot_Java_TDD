@@ -92,4 +92,12 @@ public class Robot {
         }
     }
 
+    public void changeCoords(char direction) {
+        if (direction == 'F') {
+            Integer[] change = this.moves.get(this.orientation);
+            this.xPosition += change[0];
+            this.yPosition += change[1];
+        }
+    }
+
 }

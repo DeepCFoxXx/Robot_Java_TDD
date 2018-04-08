@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16af8948-5696-488f-aca2-01799aed3937" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/robot/src/main/java/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/robot/src/main/java/Robot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/robot/src/test/java/TestRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/robot/src/test/java/TestRobot.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="Robot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robot/src/main/java/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+            <state relative-caret-position="409">
+              <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -37,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
@@ -502,8 +503,8 @@
       <list>
         <option value="$PROJECT_DIR$/robot/src/test/java/TestGrid.java" />
         <option value="$PROJECT_DIR$/robot/src/main/java/Grid.java" />
-        <option value="$PROJECT_DIR$/robot/src/main/java/Robot.java" />
         <option value="$PROJECT_DIR$/robot/src/test/java/TestRobot.java" />
+        <option value="$PROJECT_DIR$/robot/src/main/java/Robot.java" />
       </list>
     </option>
   </component>
@@ -586,7 +587,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRobot.changeOrientationRightBecomesSouth">
+  <component name="RunManager" selected="JUnit.TestRobot.moveForwardsEast">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -601,23 +602,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestGrid.warningCanSetSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="robot_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestGrid" />
-      <option name="METHOD_NAME" value="warningCanSetSquare" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -668,6 +652,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRobot" />
       <option name="METHOD_NAME" value="hasStartingPosition" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestRobot.moveForwardsEast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="robot_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRobot" />
+      <option name="METHOD_NAME" value="moveForwardsEast" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -730,19 +731,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestGrid.warningCanSetSquare" />
       <item itemvalue="JUnit.TestRobot.hasStartingPosition" />
       <item itemvalue="JUnit.TestRobot.changeOrientationLeftBecomesNorth" />
       <item itemvalue="JUnit.All in robot_test" />
       <item itemvalue="JUnit.TestRobot.changeOrientationRightBecomesSouth" />
+      <item itemvalue="JUnit.TestRobot.moveForwardsEast" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRobot.moveForwardsEast" />
         <item itemvalue="JUnit.TestRobot.changeOrientationRightBecomesSouth" />
         <item itemvalue="JUnit.All in robot_test" />
         <item itemvalue="JUnit.TestRobot.changeOrientationLeftBecomesNorth" />
         <item itemvalue="JUnit.TestRobot.hasStartingPosition" />
-        <item itemvalue="JUnit.TestGrid.warningCanSetSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -783,6 +784,9 @@
     </history-entry>
     <history-entry file="TestRobot_changeOrientationRightBecomesSouth - 2018.04.08 at 15h 59m 29s.xml">
       <configuration name="TestRobot.changeOrientationRightBecomesSouth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRobot_moveForwardsEast - 2018.04.08 at 16h 08m 43s.xml">
+      <configuration name="TestRobot.moveForwardsEast" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -861,15 +865,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/robot/src/main/java/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+        <state relative-caret-position="409">
+          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#440#441#0" expanded="true" />
