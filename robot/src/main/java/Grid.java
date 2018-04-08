@@ -23,4 +23,12 @@ public class Grid {
         this.squares[x][y] = c;
     }
 
+    public int getX() {
+        return this.x;
+    }
+
+    public int getY() {
+        return this.y;
+    }
+
 }

@@ -50,4 +50,10 @@ public class TestRobot {
         assertEquals("1 0 S", robot1.getPosition());
     }
 
+    @Test
+    public void carryOutInstructions() {
+        robot1.carryOutInstructions("RF");
+        assertEquals("1 0 S",robot1.getPosition());
+    }
+
 }

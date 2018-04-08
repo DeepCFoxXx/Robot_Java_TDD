@@ -100,4 +100,60 @@ public class Robot {
         }
     }
 
+    public void carryOutInstructions(String instructions) {
+        char[] instructionArray = instructions.toCharArray();
+        for (char instruction : instructionArray) {
+            if (instruction == 'F') {
+                if (!this.move(instruction)) {
+                    this.lost = true;
+                    return;
+                }
+            } else {
+                this.changeOrientation(instruction);
+            }
+        }
+    }
+
+    public boolean move(char direction) {
+        this.storePreviousCoords();
+        if (!this.grid.hasWarningScent(this.xPosition, this.yPosition)) {
+            return this.moveWithNoWarningScent(direction);
+        } else {
+            this.moveWithWarningScent(direction);
+            return true;
+        }
+    }
+
+    public void storePreviousCoords() {
+        this.prevXposition = this.xPosition;
+        this.prevYPosition = this.yPosition;
+    }
+
+    public boolean moveWithNoWarningScent(char direction) {
+        changeCoords(direction);
+        if (!isOnGrid()) {
+            this.addWarningScent(prevXposition, prevYPosition);
+            return false;
+        }
+        return true;
+    }
+
+    public void moveWithWarningScent(char direction) {
+        changeCoords(direction);
+        if (!isOnGrid()) {
+            this.reinstatePreviousCoords();
+        }
+    }
+
+    public boolean isOnGrid() {
+        return (this.xPosition >= 0
+                && this.yPosition >= 0
+                && this.xPosition <= this.grid.getX()
+                && this.yPosition <= this.grid.getY() );
+    }
+
+    public void addWarningScent(int x, int y) {
+        this.grid.setSquare(x,y,'x');
+    }
+
 }

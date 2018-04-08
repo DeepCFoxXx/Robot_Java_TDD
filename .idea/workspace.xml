@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16af8948-5696-488f-aca2-01799aed3937" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/robot/src/main/java/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/robot/src/main/java/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot/src/main/java/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/robot/src/main/java/Robot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/robot/src/test/java/TestRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/robot/src/test/java/TestRobot.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,8 +29,12 @@
       <file leaf-file-name="Robot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robot/src/main/java/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+            <state relative-caret-position="304">
+              <caret line="156" column="5" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
+              <folding>
+                <element signature="e#4360#4361#0" expanded="true" />
+                <element signature="e#4404#4405#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,8 +42,8 @@
       <file leaf-file-name="TestRobot.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="334">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
@@ -501,9 +507,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/robot/src/test/java/TestGrid.java" />
-        <option value="$PROJECT_DIR$/robot/src/main/java/Grid.java" />
-        <option value="$PROJECT_DIR$/robot/src/main/java/Robot.java" />
         <option value="$PROJECT_DIR$/robot/src/test/java/TestRobot.java" />
+        <option value="$PROJECT_DIR$/robot/src/main/java/Robot.java" />
+        <option value="$PROJECT_DIR$/robot/src/main/java/Grid.java" />
       </list>
     </option>
   </component>
@@ -586,7 +592,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRobot.turnAndMoveRightEasToSouth">
+  <component name="RunManager" selected="JUnit.All in robot_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -738,10 +744,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in robot_test" />
         <item itemvalue="JUnit.TestRobot.turnAndMoveRightEasToSouth" />
         <item itemvalue="JUnit.TestRobot.moveForwardsEast" />
         <item itemvalue="JUnit.TestRobot.changeOrientationRightBecomesSouth" />
-        <item itemvalue="JUnit.All in robot_test" />
         <item itemvalue="JUnit.TestRobot.changeOrientationLeftBecomesNorth" />
       </list>
     </recent_temporary>
@@ -760,12 +766,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGrid_gridXSetUp - 2018.04.07 at 17h 20m 24s.xml">
-      <configuration name="TestGrid.gridXSetUp" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGrid_gridYSetUp - 2018.04.07 at 17h 24m 19s.xml">
-      <configuration name="TestGrid.gridYSetUp" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestGrid_warningScentStartsFalse - 2018.04.07 at 17h 27m 09s.xml">
       <configuration name="TestGrid.warningScentStartsFalse" configurationId="JUnit" />
     </history-entry>
@@ -789,6 +789,12 @@
     </history-entry>
     <history-entry file="TestRobot_turnAndMoveRightEasToSouth - 2018.04.08 at 16h 15m 56s.xml">
       <configuration name="TestRobot.turnAndMoveRightEasToSouth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_robot_test - 2018.04.08 at 16h 38m 50s.xml">
+      <configuration name="All in robot_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_robot_test - 2018.04.08 at 16h 45m 22s.xml">
+      <configuration name="All in robot_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -832,21 +838,6 @@
     <entry file="file://$PROJECT_DIR$/robot/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/robot/src/main/java/Grid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestGrid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -865,17 +856,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/robot/src/main/java/Grid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/robot/src/main/java/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="156" column="5" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
+          <folding>
+            <element signature="e#4360#4361#0" expanded="true" />
+            <element signature="e#4404#4405#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="334">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#440#441#0" expanded="true" />
