@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16af8948-5696-488f-aca2-01799aed3937" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/robot/src/main/java/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/robot/src/main/java/Grid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot/src/main/java/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/robot/src/main/java/Robot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/robot/src/test/java/TestRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/robot/src/test/java/TestRobot.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,8 +40,8 @@
       <file leaf-file-name="TestRobot.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="409">
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
@@ -507,9 +505,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/robot/src/test/java/TestGrid.java" />
-        <option value="$PROJECT_DIR$/robot/src/test/java/TestRobot.java" />
         <option value="$PROJECT_DIR$/robot/src/main/java/Robot.java" />
         <option value="$PROJECT_DIR$/robot/src/main/java/Grid.java" />
+        <option value="$PROJECT_DIR$/robot/src/test/java/TestRobot.java" />
       </list>
     </option>
   </component>
@@ -616,13 +614,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestRobot.changeOrientationLeftBecomesNorth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRobot.carryOutInstructionsFullCircle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="robot_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRobot" />
-      <option name="METHOD_NAME" value="changeOrientationLeftBecomesNorth" />
+      <option name="METHOD_NAME" value="carryOutInstructionsFullCircle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -736,19 +734,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestRobot.changeOrientationLeftBecomesNorth" />
       <item itemvalue="JUnit.All in robot_test" />
       <item itemvalue="JUnit.TestRobot.changeOrientationRightBecomesSouth" />
       <item itemvalue="JUnit.TestRobot.moveForwardsEast" />
       <item itemvalue="JUnit.TestRobot.turnAndMoveRightEasToSouth" />
+      <item itemvalue="JUnit.TestRobot.carryOutInstructionsFullCircle" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in robot_test" />
+        <item itemvalue="JUnit.TestRobot.carryOutInstructionsFullCircle" />
         <item itemvalue="JUnit.TestRobot.turnAndMoveRightEasToSouth" />
         <item itemvalue="JUnit.TestRobot.moveForwardsEast" />
         <item itemvalue="JUnit.TestRobot.changeOrientationRightBecomesSouth" />
-        <item itemvalue="JUnit.TestRobot.changeOrientationLeftBecomesNorth" />
       </list>
     </recent_temporary>
   </component>
@@ -766,12 +764,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGrid_warningScentStartsFalse - 2018.04.07 at 17h 27m 09s.xml">
-      <configuration name="TestGrid.warningScentStartsFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestGrid_warningCanSetSquare - 2018.04.07 at 17h 30m 44s.xml">
-      <configuration name="TestGrid.warningCanSetSquare" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestRobot_hasStartingPosition - 2018.04.08 at 15h 34m 52s.xml">
       <configuration name="TestRobot.hasStartingPosition" configurationId="JUnit" />
     </history-entry>
@@ -796,10 +788,15 @@
     <history-entry file="All_in_robot_test - 2018.04.08 at 16h 45m 22s.xml">
       <configuration name="All in robot_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestRobot_carryOutInstructionsFullCircle - 2018.04.08 at 16h 55m 58s.xml">
+      <configuration name="TestRobot.carryOutInstructionsFullCircle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_robot_test - 2018.04.08 at 16h 56m 02s.xml">
+      <configuration name="All in robot_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -809,12 +806,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Build" weight="0.27310345" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -884,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="409">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#440#441#0" expanded="true" />

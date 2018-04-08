@@ -56,4 +56,10 @@ public class TestRobot {
         assertEquals("1 0 S",robot1.getPosition());
     }
 
+    @Test
+    public void carryOutInstructionsFullCircle() {
+        robot1.carryOutInstructions("RFRFRFRF");
+        assertEquals("1 1 E",robot1.getPosition());
+    }
+
 }
