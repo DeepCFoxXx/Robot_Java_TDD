@@ -31,4 +31,10 @@ public class TestRobot {
         assertEquals("1 1 N", robot1.getPosition());
     }
 
+    @Test
+    public void changeOrientationRightBecomesSouth() {
+        robot1.changeOrientation('R');
+        assertEquals("1 1 S", robot1.getPosition());
+    }
+
 }
