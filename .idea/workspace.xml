@@ -42,8 +42,8 @@
       <file leaf-file-name="TestRobot.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+            <state relative-caret-position="394">
+              <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
@@ -594,7 +594,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridX">
+  <component name="RunManager" selected="JUnit.All in robot_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -652,13 +652,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestRobot.positionLostIfMovesOffGridMultiplePositions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRobot.addWarningScentToGridWhenMovedOffGridY" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="robot_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRobot" />
-      <option name="METHOD_NAME" value="positionLostIfMovesOffGridMultiplePositions" />
+      <option name="METHOD_NAME" value="addWarningScentToGridWhenMovedOffGridY" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -669,13 +669,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestRobot.positionLostIfMovesOffGridPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRobot.positionLostIfMovesOffGridMultiplePositions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="robot_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRobot" />
-      <option name="METHOD_NAME" value="positionLostIfMovesOffGridPositive" />
+      <option name="METHOD_NAME" value="positionLostIfMovesOffGridMultiplePositions" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -738,19 +738,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in robot_test" />
-      <item itemvalue="JUnit.TestRobot.positionLostIfMovesOffGridPositive" />
       <item itemvalue="JUnit.TestRobot.positionLostIfMovesOffGridMultiplePositions" />
       <item itemvalue="JUnit.TestRobot.addWarningScentToGrid" />
       <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridX" />
+      <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridY" />
+      <item itemvalue="JUnit.All in robot_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in robot_test" />
+        <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridY" />
         <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridX" />
         <item itemvalue="JUnit.TestRobot.addWarningScentToGrid" />
         <item itemvalue="JUnit.TestRobot.positionLostIfMovesOffGridMultiplePositions" />
-        <item itemvalue="JUnit.TestRobot.positionLostIfMovesOffGridPositive" />
-        <item itemvalue="JUnit.All in robot_test" />
       </list>
     </recent_temporary>
   </component>
@@ -888,8 +888,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="105" column="5" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+        <state relative-caret-position="394">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#440#441#0" expanded="true" />
