@@ -635,23 +635,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestRobot.addWarningScentToGridWhenMovedOffGridX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="robot_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRobot" />
-      <option name="METHOD_NAME" value="addWarningScentToGridWhenMovedOffGridX" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="TestRobot.addWarningScentToGridWhenMovedOffGridY" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="robot_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -676,6 +659,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRobot" />
       <option name="METHOD_NAME" value="doNotMoveOffGridIfWarningScent" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestRobot.doNotMoveOffGridIfWarningScent2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="robot_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRobot" />
+      <option name="METHOD_NAME" value="doNotMoveOffGridIfWarningScent2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -738,19 +738,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridX" />
       <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridY" />
       <item itemvalue="JUnit.All in robot_test" />
       <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridByMultiplePositions" />
       <item itemvalue="JUnit.TestRobot.doNotMoveOffGridIfWarningScent" />
+      <item itemvalue="JUnit.TestRobot.doNotMoveOffGridIfWarningScent2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in robot_test" />
+        <item itemvalue="JUnit.TestRobot.doNotMoveOffGridIfWarningScent2" />
         <item itemvalue="JUnit.TestRobot.doNotMoveOffGridIfWarningScent" />
         <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridByMultiplePositions" />
         <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridY" />
-        <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridX" />
       </list>
     </recent_temporary>
   </component>

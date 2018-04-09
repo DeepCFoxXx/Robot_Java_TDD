@@ -124,4 +124,12 @@ public class TestRobot {
         assertEquals("1 0 S", robot2.getPosition());
     }
 
+    @Test
+    public void doNotMoveOffGridIfWarningScent2() {
+        robot3.carryOutInstructions("FRRFLLFFRRFLL");
+        robot4.carryOutInstructions("LLFFFLFLFL");
+        assertEquals("3 3 N LOST", robot3.getPosition());
+        assertEquals("2 3 S", robot4.getPosition());
+    }
+
 }
