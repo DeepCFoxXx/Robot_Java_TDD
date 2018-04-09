@@ -3,6 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class TestRobot {
 
@@ -67,6 +68,11 @@ public class TestRobot {
     public void checkOnGridReturnsFalse() {
         robot1.carryOutInstructions("RFF");
         assertFalse(robot1.isOnGrid());
+    }
+
+    @Test
+    public void checkOnGridReturnsTrue() {
+        assertTrue(robot1.isOnGrid());
     }
 
 }
