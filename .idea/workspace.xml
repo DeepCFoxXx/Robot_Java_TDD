@@ -41,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
-              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
@@ -590,7 +590,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in robot_test">
+  <component name="RunManager" selected="JUnit.TestRobot.checkOnGridReturnsFalse">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -631,13 +631,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestRobot.changeOrientationRightBecomesSouth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRobot.checkOnGridReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="robot_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRobot" />
-      <option name="METHOD_NAME" value="changeOrientationRightBecomesSouth" />
+      <option name="METHOD_NAME" value="checkOnGridReturnsFalse" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -735,18 +735,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in robot_test" />
-      <item itemvalue="JUnit.TestRobot.changeOrientationRightBecomesSouth" />
       <item itemvalue="JUnit.TestRobot.moveForwardsEast" />
       <item itemvalue="JUnit.TestRobot.turnAndMoveRightEasToSouth" />
       <item itemvalue="JUnit.TestRobot.carryOutInstructionsFullCircle" />
+      <item itemvalue="JUnit.TestRobot.checkOnGridReturnsFalse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRobot.checkOnGridReturnsFalse" />
         <item itemvalue="JUnit.All in robot_test" />
         <item itemvalue="JUnit.TestRobot.carryOutInstructionsFullCircle" />
         <item itemvalue="JUnit.TestRobot.turnAndMoveRightEasToSouth" />
         <item itemvalue="JUnit.TestRobot.moveForwardsEast" />
-        <item itemvalue="JUnit.TestRobot.changeOrientationRightBecomesSouth" />
       </list>
     </recent_temporary>
   </component>
@@ -797,6 +797,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -882,7 +883,7 @@
     <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#440#441#0" expanded="true" />

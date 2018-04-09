@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 public class TestRobot {
 
@@ -60,6 +61,12 @@ public class TestRobot {
     public void carryOutInstructionsFullCircle() {
         robot1.carryOutInstructions("RFRFRFRF");
         assertEquals("1 1 E",robot1.getPosition());
+    }
+
+    @Test
+    public void checkOnGridReturnsFalse() {
+        robot1.carryOutInstructions("RFF");
+        assertFalse(robot1.isOnGrid());
     }
 
 }
