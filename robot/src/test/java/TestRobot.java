@@ -87,4 +87,10 @@ public class TestRobot {
         assertEquals("5 1 E LOST", robot1.getPosition());
     }
 
+    @Test
+    public void positionLostIfMovesOffGridMultiplePositions() {
+        robot1.carryOutInstructions("FFFFFFFF");
+        assertEquals("5 1 E LOST", robot1.getPosition());
+    }
+
 }
