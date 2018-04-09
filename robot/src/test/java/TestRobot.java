@@ -111,4 +111,10 @@ public class TestRobot {
         assertTrue(robot1.getGrid().hasWarningScent(1,0));
     }
 
+    @Test
+    public void addWarningScentToGridWhenMovedOffGridByMultiplePositions() {
+        robot1.carryOutInstructions("FFFFFFFF");
+        assertTrue(robot1.getGrid().hasWarningScent(5,1));
+    }
+
 }
