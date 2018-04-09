@@ -99,4 +99,10 @@ public class TestRobot {
         assertTrue(robot1.getGrid().hasWarningScent(1,3));
     }
 
+    @Test
+    public void addWarningScentToGridWhenMovedOffGridX() {
+        robot1.carryOutInstructions("FFFFF");
+        assertTrue(robot1.getGrid().hasWarningScent(5,1));
+    }
+
 }
