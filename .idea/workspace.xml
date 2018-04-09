@@ -592,7 +592,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in robot_test">
+  <component name="RunManager" selected="JUnit.TestRobot.positionLostIfMovesOffGridPositive">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -650,13 +650,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestRobot.moveForwardsEast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRobot.positionLostIfMovesOffGridPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="robot_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRobot" />
-      <option name="METHOD_NAME" value="moveForwardsEast" />
+      <option name="METHOD_NAME" value="positionLostIfMovesOffGridPositive" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -737,18 +737,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in robot_test" />
-      <item itemvalue="JUnit.TestRobot.moveForwardsEast" />
       <item itemvalue="JUnit.TestRobot.turnAndMoveRightEasToSouth" />
       <item itemvalue="JUnit.TestRobot.carryOutInstructionsFullCircle" />
       <item itemvalue="JUnit.TestRobot.checkOnGridReturnsFalse" />
+      <item itemvalue="JUnit.TestRobot.positionLostIfMovesOffGridPositive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRobot.positionLostIfMovesOffGridPositive" />
         <item itemvalue="JUnit.All in robot_test" />
         <item itemvalue="JUnit.TestRobot.checkOnGridReturnsFalse" />
         <item itemvalue="JUnit.TestRobot.carryOutInstructionsFullCircle" />
         <item itemvalue="JUnit.TestRobot.turnAndMoveRightEasToSouth" />
-        <item itemvalue="JUnit.TestRobot.moveForwardsEast" />
       </list>
     </recent_temporary>
   </component>
