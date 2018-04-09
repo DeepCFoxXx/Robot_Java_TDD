@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16af8948-5696-488f-aca2-01799aed3937" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/robot/src/main/java/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/robot/src/main/java/Robot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/robot/src/test/java/TestRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/robot/src/test/java/TestRobot.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,11 +28,13 @@
       <file leaf-file-name="Robot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robot/src/main/java/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="156" column="5" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
+            <state relative-caret-position="349">
+              <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
               <folding>
                 <element signature="e#4360#4361#0" expanded="true" />
                 <element signature="e#4404#4405#0" expanded="true" />
+                <element signature="e#4428#4429#0" expanded="true" />
+                <element signature="e#4454#4455#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,8 +43,8 @@
       <file leaf-file-name="TestRobot.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+            <state relative-caret-position="409">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
@@ -507,9 +510,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/robot/src/test/java/TestGrid.java" />
-        <option value="$PROJECT_DIR$/robot/src/main/java/Robot.java" />
         <option value="$PROJECT_DIR$/robot/src/main/java/Grid.java" />
         <option value="$PROJECT_DIR$/robot/src/test/java/TestRobot.java" />
+        <option value="$PROJECT_DIR$/robot/src/main/java/Robot.java" />
       </list>
     </option>
   </component>
@@ -592,7 +595,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRobot.positionLostIfMovesOffGridMultiplePositions">
+  <component name="RunManager" selected="JUnit.TestRobot.addWarningScentToGrid">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -616,13 +619,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestRobot.carryOutInstructionsFullCircle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRobot.addWarningScentToGrid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="robot_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRobot" />
-      <option name="METHOD_NAME" value="carryOutInstructionsFullCircle" />
+      <option name="METHOD_NAME" value="addWarningScentToGrid" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -737,18 +740,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in robot_test" />
-      <item itemvalue="JUnit.TestRobot.carryOutInstructionsFullCircle" />
       <item itemvalue="JUnit.TestRobot.checkOnGridReturnsFalse" />
       <item itemvalue="JUnit.TestRobot.positionLostIfMovesOffGridPositive" />
       <item itemvalue="JUnit.TestRobot.positionLostIfMovesOffGridMultiplePositions" />
+      <item itemvalue="JUnit.TestRobot.addWarningScentToGrid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRobot.addWarningScentToGrid" />
         <item itemvalue="JUnit.TestRobot.positionLostIfMovesOffGridMultiplePositions" />
         <item itemvalue="JUnit.TestRobot.positionLostIfMovesOffGridPositive" />
         <item itemvalue="JUnit.All in robot_test" />
         <item itemvalue="JUnit.TestRobot.checkOnGridReturnsFalse" />
-        <item itemvalue="JUnit.TestRobot.carryOutInstructionsFullCircle" />
       </list>
     </recent_temporary>
   </component>
@@ -766,9 +769,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRobot_moveForwardsEast - 2018.04.08 at 16h 08m 43s.xml">
-      <configuration name="TestRobot.moveForwardsEast" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestRobot_turnAndMoveRightEasToSouth - 2018.04.08 at 16h 15m 56s.xml">
       <configuration name="TestRobot.turnAndMoveRightEasToSouth" configurationId="JUnit" />
     </history-entry>
@@ -795,6 +795,9 @@
     </history-entry>
     <history-entry file="TestRobot_positionLostIfMovesOffGridMultiplePositions - 2018.04.09 at 14h 54m 21s.xml">
       <configuration name="TestRobot.positionLostIfMovesOffGridMultiplePositions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRobot_addWarningScentToGrid - 2018.04.09 at 15h 00m 14s.xml">
+      <configuration name="TestRobot.addWarningScentToGrid" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -873,19 +876,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/robot/src/main/java/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="156" column="5" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
+        <state relative-caret-position="349">
+          <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
           <folding>
             <element signature="e#4360#4361#0" expanded="true" />
             <element signature="e#4404#4405#0" expanded="true" />
+            <element signature="e#4428#4429#0" expanded="true" />
+            <element signature="e#4454#4455#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+        <state relative-caret-position="409">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#440#441#0" expanded="true" />

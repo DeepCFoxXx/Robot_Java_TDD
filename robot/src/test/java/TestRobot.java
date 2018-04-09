@@ -93,4 +93,10 @@ public class TestRobot {
         assertEquals("5 1 E LOST", robot1.getPosition());
     }
 
+    @Test
+    public void addWarningScentToGrid() {
+        robot1.addWarningScent(1,3);
+        assertTrue(robot1.getGrid().hasWarningScent(1,3));
+    }
+
 }

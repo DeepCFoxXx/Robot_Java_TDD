@@ -156,4 +156,7 @@ public class Robot {
         this.grid.setSquare(x,y,'x');
     }
 
+    public Grid getGrid() {
+        return this.grid;
+    }
 }
