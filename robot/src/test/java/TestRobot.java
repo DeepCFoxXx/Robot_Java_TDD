@@ -75,4 +75,10 @@ public class TestRobot {
         assertTrue(robot1.isOnGrid());
     }
 
+    @Test
+    public void positionLostIfMovesOffGridNegative() {
+        robot1.carryOutInstructions("RFF");
+        assertEquals("1 0 S LOST", robot1.getPosition());
+    }
+
 }

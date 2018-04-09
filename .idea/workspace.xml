@@ -40,12 +40,14 @@
       <file leaf-file-name="TestRobot.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            <state relative-caret-position="304">
+              <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
                 <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#1794#1795#0" expanded="true" />
+                <element signature="e#1839#1840#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -590,7 +592,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRobot.checkOnGridReturnsFalse">
+  <component name="RunManager" selected="JUnit.All in robot_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -742,8 +744,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRobot.checkOnGridReturnsFalse" />
         <item itemvalue="JUnit.All in robot_test" />
+        <item itemvalue="JUnit.TestRobot.checkOnGridReturnsFalse" />
         <item itemvalue="JUnit.TestRobot.carryOutInstructionsFullCircle" />
         <item itemvalue="JUnit.TestRobot.turnAndMoveRightEasToSouth" />
         <item itemvalue="JUnit.TestRobot.moveForwardsEast" />
@@ -764,12 +766,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRobot_hasStartingPosition - 2018.04.08 at 15h 34m 52s.xml">
-      <configuration name="TestRobot.hasStartingPosition" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRobot_changeOrientationLeftBecomesNorth - 2018.04.08 at 15h 37m 28s.xml">
-      <configuration name="TestRobot.changeOrientationLeftBecomesNorth" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_robot_test - 2018.04.08 at 15h 57m 49s.xml">
       <configuration name="All in robot_test" configurationId="JUnit" />
     </history-entry>
@@ -794,10 +790,15 @@
     <history-entry file="All_in_robot_test - 2018.04.08 at 16h 56m 02s.xml">
       <configuration name="All in robot_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestRobot_checkOnGridReturnsFalse - 2018.04.09 at 14h 40m 41s.xml">
+      <configuration name="TestRobot.checkOnGridReturnsFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_robot_test - 2018.04.09 at 14h 45m 57s.xml">
+      <configuration name="All in robot_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -882,12 +883,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#440#441#0" expanded="true" />
             <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#1794#1795#0" expanded="true" />
+            <element signature="e#1839#1840#0" expanded="true" />
           </folding>
         </state>
       </provider>
