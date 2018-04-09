@@ -27,8 +27,8 @@
       <file leaf-file-name="Robot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robot/src/main/java/Robot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+            <state relative-caret-position="-401">
+              <caret line="112" column="13" lean-forward="true" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
               <folding>
                 <element signature="e#4360#4361#0" expanded="true" />
                 <element signature="e#4404#4405#0" expanded="true" />
@@ -42,8 +42,8 @@
       <file leaf-file-name="TestRobot.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+            <state relative-caret-position="304">
+              <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
@@ -594,7 +594,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridByMultiplePositions">
+  <component name="RunManager" selected="JUnit.All in robot_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -609,23 +609,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestRobot.addWarningScentToGrid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="robot_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRobot" />
-      <option name="METHOD_NAME" value="addWarningScentToGrid" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -676,6 +659,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRobot" />
       <option name="METHOD_NAME" value="addWarningScentToGridWhenMovedOffGridY" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestRobot.doNotMoveOffGridIfWarningScent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="robot_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRobot" />
+      <option name="METHOD_NAME" value="doNotMoveOffGridIfWarningScent" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -738,19 +738,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestRobot.addWarningScentToGrid" />
       <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridX" />
       <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridY" />
       <item itemvalue="JUnit.All in robot_test" />
       <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridByMultiplePositions" />
+      <item itemvalue="JUnit.TestRobot.doNotMoveOffGridIfWarningScent" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridByMultiplePositions" />
         <item itemvalue="JUnit.All in robot_test" />
+        <item itemvalue="JUnit.TestRobot.doNotMoveOffGridIfWarningScent" />
+        <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridByMultiplePositions" />
         <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridY" />
         <item itemvalue="JUnit.TestRobot.addWarningScentToGridWhenMovedOffGridX" />
-        <item itemvalue="JUnit.TestRobot.addWarningScentToGrid" />
       </list>
     </recent_temporary>
   </component>
@@ -768,12 +768,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_robot_test - 2018.04.08 at 16h 56m 02s.xml">
-      <configuration name="All in robot_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRobot_checkOnGridReturnsFalse - 2018.04.09 at 14h 40m 41s.xml">
-      <configuration name="TestRobot.checkOnGridReturnsFalse" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_robot_test - 2018.04.09 at 14h 45m 57s.xml">
       <configuration name="All in robot_test" configurationId="JUnit" />
     </history-entry>
@@ -797,6 +791,12 @@
     </history-entry>
     <history-entry file="TestRobot_addWarningScentToGridWhenMovedOffGridByMultiplePositions - 2018.04.09 at 15h 17m 57s.xml">
       <configuration name="TestRobot.addWarningScentToGridWhenMovedOffGridByMultiplePositions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRobot_doNotMoveOffGridIfWarningScent - 2018.04.09 at 15h 25m 53s.xml">
+      <configuration name="TestRobot.doNotMoveOffGridIfWarningScent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_robot_test - 2018.04.09 at 15h 25m 58s.xml">
+      <configuration name="All in robot_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -875,8 +875,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/robot/src/main/java/Robot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+        <state relative-caret-position="-401">
+          <caret line="112" column="13" lean-forward="true" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
           <folding>
             <element signature="e#4360#4361#0" expanded="true" />
             <element signature="e#4404#4405#0" expanded="true" />
@@ -888,8 +888,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/robot/src/test/java/TestRobot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#440#441#0" expanded="true" />

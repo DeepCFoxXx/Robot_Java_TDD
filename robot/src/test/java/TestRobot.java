@@ -117,4 +117,11 @@ public class TestRobot {
         assertTrue(robot1.getGrid().hasWarningScent(5,1));
     }
 
+    @Test
+    public void doNotMoveOffGridIfWarningScent() {
+        robot1.carryOutInstructions("RFF");
+        robot2.carryOutInstructions("RFF");
+        assertEquals("1 0 S", robot2.getPosition());
+    }
+
 }
